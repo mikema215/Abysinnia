@@ -1,0 +1,196 @@
+
+
+img{
+max-width:100%;
+height:auto;
+}
+
+*{
+box-sizing:border-box;
+}
+
+/* BODY */
+
+body{
+font-family: Arial, sans-serif;
+margin:0;
+background:#f5f5f5;
+text-align:center;
+}
+
+/* NAVIGATION */
+
+nav{
+background:#023e8a;
+padding:15px;
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+}
+
+nav a{
+color:white;
+text-decoration:none;
+font-weight:bold;
+font-size:16px;
+transition:0.3s;
+}
+
+nav a:hover{
+color:#90e0ef;
+}
+
+/* HEADER */
+
+header{
+background:#0077b6;
+color:white;
+padding:30px;
+}
+
+.logo{
+width:200px;
+margin-top:10px;
+border-radius:10px;
+}
+
+/* SERVICES CONTAINER */
+
+.container{
+margin:30px;
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:20px;
+}
+
+/* SERVICE CARD */
+
+.service{
+background:white;
+padding:20px;
+border-radius:8px;
+width:260px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.service:hover{
+transform:translateY(-5px);
+}
+
+.service img{
+width:100%;
+height:150px;
+object-fit:cover;
+border-radius:6px;
+margin-bottom:10px;
+}
+
+/* DOCTOR */
+
+.doctor{
+background:white;
+padding:20px;
+margin:30px auto;
+width:320px;
+border-radius:8px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.doctor img{
+width:220px;
+height:auto;
+border-radius:10px;
+}
+
+/* BOOKING FORM */
+
+.booking{
+background:white;
+padding:30px;
+margin:40px auto;
+width:350px;
+border-radius:10px;
+box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+}
+
+.booking input,
+.booking textarea{
+width:90%;
+padding:10px;
+margin:10px;
+border:1px solid #ccc;
+border-radius:5px;
+}
+
+.booking button{
+background:#0077b6;
+color:white;
+border:none;
+padding:12px 20px;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+transition:0.3s;
+}
+
+.booking button:hover{
+background:#023e8a;
+}
+
+/* WHATSAPP BUTTON */
+
+.whatsapp{
+display:inline-block;
+margin-top:20px;
+background:#25D366;
+color:white;
+padding:12px 25px;
+border-radius:5px;
+text-decoration:none;
+font-size:18px;
+transition:0.3s;
+}
+
+.whatsapp:hover{
+background:#1ebe5d;
+}
+
+/* MAP */
+
+iframe{
+width:90%;
+height:350px;
+border:0;
+margin-top:20px;
+border-radius:10px;
+}
+
+/* FOOTER */
+
+footer{
+margin-top:40px;
+padding:15px;
+background:#333;
+color:white;
+}
+
+/* MOBILE RESPONSIVE */
+
+@media (max-width:768px){
+
+.service{
+width:90%;
+}
+
+.doctor{
+width:90%;
+}
+
+.booking{
+width:90%;
+}
+
+}
